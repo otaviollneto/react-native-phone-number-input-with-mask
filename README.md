@@ -16,8 +16,8 @@
 <br>
 <p align="center">
 <img src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square" alt="build"/>
-<img src="https://img.shields.io/github/issues/garganurag893/react-native-phone-number-input" alt="build"/>
-<img src="https://img.shields.io/github/issues-pr/garganurag893/react-native-phone-number-input" alt="build"/>
+<img src="https://img.shields.io/github/issues/garganurag893/react-native-phone-number-input-with-mask" alt="build"/>
+<img src="https://img.shields.io/github/issues-pr/garganurag893/react-native-phone-number-input-with-mask" alt="build"/>
 <img src="http://img.shields.io/:license-mit-blue.svg?style=flat-square" alt="build"/>
 </p>
 
@@ -47,13 +47,13 @@
 ## Installation
 
 ```bash
-$ yarn add react-native-phone-number-input
+$ yarn add react-native-phone-number-input-with-mask
 ```
 
 OR
 
 ```bash
-$ npm i react-native-phone-number-input --save
+$ npm i react-native-phone-number-input-with-mask --save
 ```
 
 ## Features
@@ -65,7 +65,7 @@ $ npm i react-native-phone-number-input --save
 
 ## Usage
 
-For more complete example open [App.tsx](https://github.com/garganurag893/react-native-phone-number-input/blob/master/example/App.tsx)
+For more complete example open [App.tsx](https://github.com/otaviollneto/react-native-phone-number-input-with-mask/blob/master/example/App.tsx)
 
 ```tsx
 import React, { useState, useRef } from "react";
@@ -112,6 +112,7 @@ const App: React.FC = () => {
             withDarkTheme
             withShadow
             autoFocus
+            mask={'([00]) [0] [0000]-[0000]'}
           />
           <TouchableOpacity
             style={styles.button}
@@ -179,32 +180,6 @@ Upgrade `versions['Flipper'] ||= '~> 0.37.0'` in podfile.
 
 > To get started...
 
-### Step 1
-
-- **Option 1**
-
-  - 🍴 Fork this repo!
-
-- **Option 2**
-  - 👯 Clone this repo to your local machine using `https://github.com/garganurag893/react-native-phone-number-input`
-
-### Step 2
-
-- **HACK AWAY!** 🔨🔨🔨
-
-### Step 3
-
-- 🔃 Create a new pull request using <a href="https://github.com/garganurag893/react-native-phone-number-input" target="_blank">`https://github.com/garganurag893/react-native-phone-number-input`</a>.
-
-## Support
-
-Reach out to me at one of the following places!
-
-- Twitter at <a href="https://twitter.com/AnuragG94634191" target="_blank">https://twitter.com/AnuragG94634191</a>
-- Medium at <a href="https://medium.com/@garganurag893" target="_blank">https://medium.com/@garganurag893</a>
-- Instagram at <a href="https://www.instagram.com/the_only_anurag/" target="_blank">https://www.instagram.com/the_only_anurag/</a>
-- Email at garganurag893@gmail.com
-
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
@@ -212,7 +187,5 @@ Reach out to me at one of the following places!
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 
 ## Hire
-
-Looking for a React/React-Native Freelance Expert? Email at garganurag893@gmail.com
 
 [react-native-country-picker-modal]: https://github.com/xcarpentier/react-native-country-picker-modal
