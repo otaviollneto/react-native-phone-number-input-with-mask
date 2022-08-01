@@ -1,6 +1,6 @@
 {
   "name": "react-native-phone-number-input-with-mask",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Phone Number Input With Mask Component",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
