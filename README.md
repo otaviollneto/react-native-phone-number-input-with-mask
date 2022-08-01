@@ -5,7 +5,7 @@
 
 <br>
 
-<h1 align="center">React Native Phone Number Input
+<h1 align="center">React Native Phone Number Input With Mask
 </h1>
 
 <p align="center">Performance oriented React Native Phone Number Input with typings and proper validation for any country.
@@ -158,6 +158,7 @@ export default App;
 - `layout?`: "first" | "second";
 - `filterProps?`: CountryFilterProps;
 - `countryPickerProps?`: any;
+- `onBlur?`: any;
 
 ## Methods
 
